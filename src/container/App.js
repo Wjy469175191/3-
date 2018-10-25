@@ -7,8 +7,8 @@ import ProFile from "./proFile/ProFile"
 import Shiwu from "./shiwu/Shiwu"
 import ShoppingCart from "./shoppingCart/ShoppingCart"
 
-export default class App extends React.Component{
-    render(){
+export default class App extends React.Component {
+    render() {
         return <div>
             <Route path='/wyyx' component={Home} exact={true}/>
             <Route path='/wyyx/classify' component={Classify}/>

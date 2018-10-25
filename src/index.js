@@ -16,6 +16,7 @@ ReactDOM.render(<div>
             </Switch>
            
         </Provider>
-    </HashRouter>   
+    </HashRouter>
 
-</div>,window.root)
+</div>, window.root)
+

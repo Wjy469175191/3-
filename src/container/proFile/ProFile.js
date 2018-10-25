@@ -1,9 +1,11 @@
-import React from "react"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.less'
 
-export default class ProFile extends React.Component{
+export default class Profile extends React.Component {
     render() {
-        return <div>
-            个人
+        return <div className='profile'>
+
         </div>
     }
 }
