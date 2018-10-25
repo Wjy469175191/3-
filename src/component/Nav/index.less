@@ -1,5 +1,5 @@
 .nav_box{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 1.30667rem;
@@ -7,10 +7,20 @@
     display: flex;
     a{
         flex: 1;
-        display: block;
+        display: flex;
         margin-top: .09333rem;
         font-size: .32rem;
         color: #666;
         text-decoration: none;
+        justify-content: center;//横向居中
+        flex-direction: column;// 竖直排列
+        align-items: center;//横向居中
+        &.active{
+            color: #b4282d;
+        }
+        i{
+            font-size: 0.55rem;
+            font-weight: 500;
+        }
     }
 }
