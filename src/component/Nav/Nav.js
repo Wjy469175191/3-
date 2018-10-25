@@ -1,9 +1,9 @@
 import React from "react"
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./index.less"
 
 export default class Nav extends React.Component {
-    render(){
+    render() {
         return <div className="nav_box">
             <NavLink to="/wyyx" exact={true}>
                 <i className="iconfont icon-home"></i>
