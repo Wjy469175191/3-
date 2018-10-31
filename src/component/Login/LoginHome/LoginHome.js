@@ -18,7 +18,26 @@ export default class LoginHome extends React.Component {
                 </div>
                 <span>手机号快捷注册></span>
             </div>
-            <div className='third_box'></div>
+            <div className='third_box'>
+                <div className='item_box'>
+                    <span className='item'>
+                        <i></i>
+                        <span className='name'>微信</span>
+                    </span>
+                </div>
+                <div className='item_box'>
+                    <span className='item'>
+                        <i></i>
+                        <span className='name'>QQ</span>
+                    </span>
+                </div>
+                <div className='item_box'>
+                    <span className='item'>
+                        <i></i>
+                        <span className='name'>微博</span>
+                    </span>
+                </div>
+            </div>
         </div>
     }
 }
