@@ -12,7 +12,7 @@ export default class ShoppingLogin extends React.Component{
             <div className="SLogin-content">
                 <div className="SLogin-img"></div>
                 <span>去添加点什么吧</span>
-                <a href="http://localhost:3000/#/login">登录</a>
+                {this.props.isLogin?null:<a href="http://localhost:3000/#/login">登录</a>}
             </div>
         </div>
     }
