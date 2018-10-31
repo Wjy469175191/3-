@@ -1,9 +1,7 @@
+ 
+const HOST = "http://localhost:3002";
 
-
-// 获取数据
-export function get(url){
-    return fetch(Host+url).then(response=>response.json())
+export function get(url) {
+    return fetch(HOST + url).then(response => response.json())
 }
-
-
-
+ 

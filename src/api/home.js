@@ -1,4 +1,6 @@
+
+import {get} from "./index.js";
 //获取轮播图
-export function getSliders(url){
-    return fetch( ).then(response=>response.json())
+export function getSliders(){
+    return get("/getSliders")
 }
